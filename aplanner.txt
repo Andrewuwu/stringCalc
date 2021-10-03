@@ -1,0 +1,33 @@
+Planner 
+
+Adding two numbers
+
+Strings of same size
+    iterate from the back of the numbers and use convert digit to decimal 
+    while loop that checks if carry is 1 or index exits or exits
+Strings of different size 
+
+
+ if (j > 0){
+        if(min == lhs.length()-1){
+            string insert = rhs.substr(0,j+1);
+            answer.insert(0, insert);
+        }
+
+    }
+    if (i > 0){
+        if (min == rhs.size()-1){
+            string insert = lhs.substr(0,i+1);
+            answer.insert(0, insert);
+        }
+    }
+    
+
+5 * 4 == 5 + 5 + 5 + 5
+while loop based on second number inputn
+
+iterator starts at 0.. goes to second number input with add function
+num = add(5, 5)
+num = add(num, 5)
+num = add(num, 5)
+
